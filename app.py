@@ -21,4 +21,4 @@ if st.button("Calculate my chaos"):
     score = calc_chaos_score(bac, 0, 0)
     st.write(f"BAC: {bac:.3f}")
     st.write(f"Chaos score: {score}")
-    st.write(f"Description: {stages[score]['description']}")
+    st.write(stages[score]['description'])

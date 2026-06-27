@@ -22,13 +22,13 @@ def calc_chaos_score(bac: float, caffeine_mg: float, sugar_g: float):
         chaos_score = 1
     elif bac >= 0.05 and bac < 0.08:
         chaos_score = 2
-    elif bac >= 0.08 and bac < 0.12:
+    elif bac >= 0.08 and bac < 0.10:
         chaos_score = 3
-    elif bac >= 0.12 and bac < 0.16:
+    elif bac >= 0.10 and bac < 0.14:
         chaos_score = 4
-    elif bac >= 0.16 and bac < 0.20:
+    elif bac >= 0.14 and bac < 0.18:
         chaos_score = 5
-    elif bac >= 0.20 and bac < 0.30:
+    elif bac >= 0.18 and bac < 0.30:
         chaos_score = 6
     elif bac >= 0.30:
         chaos_score = 7 # danger zone
