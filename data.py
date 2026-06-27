@@ -21,7 +21,7 @@ stages = [
     {"name": "nothing here", "description": "No chaos detected."},
     {"name": "eh", "description": "Minimum chaos detected."},
     {"name": "happiness has entered the chat", "description": "Moderate chaos detected :)."},
-    {"name": "let's goooo", "description": "Chaotic happiness :)))"},
+    {"name": "let's goooo", "description": "Chaotic happiness :))) also no driving beyond this point."},
     {"name": "chaos mode activated", "description": "Approaching diminishing returns."},
     {"name": "going to regret this tomorrow", "description": "Past diminishing returns"},
     {"name": "ultimate chaos mode activated", "description": "Maximum chaos detected :o"},
