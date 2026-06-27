@@ -5,7 +5,7 @@ from calc import calc_bac, calc_chaos_score
 st.title("Chaos Calculator")
 
 weight = st.number_input("Weight (lbs)", min_value=80, max_value=300, value=110)
-sex = st.selectbox("Sex", ["female", "male"])
+sex = st.selectbox("Sex", ["Female", "Male"])
 
 st.subheader("Drinks")
 selections = {}

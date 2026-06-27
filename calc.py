@@ -1,11 +1,11 @@
 def calc_bac(alcohol_grams: float, weight_lb: float, sex: str):
     # BAC calculation based on the Widmark formula
-    if sex == "male":
+    if sex == "Male":
         r = 0.73
-    elif sex == "female":
+    elif sex == "Female":
         r = 0.66
     else:
-        raise ValueError("Invalid sex. Please specify 'male' or 'female'.")
+        raise ValueError("Invalid sex. Please specify 'Male' or 'Female'.")
     
     # calculate BAC
     # change alcohol grams to oz 
