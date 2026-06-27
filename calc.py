@@ -20,9 +20,9 @@ def calc_chaos_score(bac: float, caffeine_mg: float, sugar_g: float):
         chaos_score = 0
     elif bac >= 0.02 and bac < 0.05:
         chaos_score = 1
-    elif bac >= 0.05 and bac < 0.08:
+    elif bac >= 0.05 and bac < 0.09:
         chaos_score = 2
-    elif bac >= 0.08 and bac < 0.12:
+    elif bac >= 0.09 and bac < 0.12:
         chaos_score = 3
     elif bac >= 0.12 and bac < 0.15:
         chaos_score = 4
