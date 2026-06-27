@@ -15,3 +15,15 @@ drinks = [
     {"name": "aperol_spritz", "alcohol_content": 9.0, "alcohol_grams": 12.5, "sugar": 13.0, "caffeine": 0.0},
     {"name": "espresso", "alcohol_content": 0.0, "alcohol_grams": 0.0, "sugar": 0.0, "caffeine": 64.0},  
 ] 
+
+# index is the chaos schore; stages[0] is nothing 
+stages = [
+    {"name": "nothing here", "description": "No chaos detected."},
+    {"name": "eh", "description": "Bare minimum chaos detected."},
+    {"name": "happiness has entered the chat", "description": "Moderate chaos detected :)."},
+    {"name": "let's goooo", "description": "Chaotic happiness has entered the chat"},
+    {"name": "chaos mode activated", "description": "Approaching diminishing returns."},
+    {"name": "going to regret this tomorrow", "description": "Past diminishing returns"},
+    {"name": "ultimate chaos mode activated", "description": "Maximum chaos detected - time to get water :)"},
+    {"name": "danger zone", "description": "Too much chaos"}
+]
