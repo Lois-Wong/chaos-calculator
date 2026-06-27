@@ -24,6 +24,6 @@ stages = [
     {"name": "let's goooo", "description": "Chaotic happiness :)))"},
     {"name": "chaos mode activated", "description": "Approaching diminishing returns."},
     {"name": "going to regret this tomorrow", "description": "Past diminishing returns"},
-    {"name": "ultimate chaos mode activated", "description": "Maximum chaos detected - time to get water ;-;"},
-    {"name": "danger zone", "description": "Too much chaos"}
+    {"name": "ultimate chaos mode activated", "description": "Maximum chaos detected :o"},
+    {"name": "danger zone", "description": "Too much chaos should probably seek medical help ;-;"}
 ]
